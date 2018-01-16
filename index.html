@@ -5,14 +5,46 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jQuery.js"></script>
     <script src="js/scripts.js"></script>
-    <title>A fantastical adventure</title>
+    <title>Favorute Flavors</title>
   </head>
   <body>
     <div class="container">
-      <h2>Please fill out the form below, with the appropriate word types.</h2>
-
-      <div>
-      </div><!--end story-->
-    </div><!--end container-->
+      <h2>Cual son tus sabores favorites de <u>Ice Cream</u>??</h2>
+      </br>
+      <form id="iceCream">
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label>Sabor I</label>
+            <input id="flavorI" type="text" name="" value="ex. chocolate">
+          </div>
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label>Sabor II</label>
+            <input id="flavorII" type="text" name="" value="">
+          </div>
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label>Sabor III</label>
+            <input id="flavorIII" type="text" name="" value="">
+          </div>
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label>Sabor IV</label>
+            <input id="flavorIV" type="text" name="" value="">
+          </div>
+          <div class="form-group"> <!--form-group is a bootstrap class-->
+            <label>Sabor V</label>
+            <input id="flavorV" type="text" name="" value="">
+          </div>
+          <hr>
+          <button class="btn btn-success" name="button">Confirmar</button>
+        <form><!--end iceCream-->
+          <div id="summary">
+            <hr>
+            <p>Hey that's cool! It looks like your favorite flavors of icecream are
+              <span class="flavorI"></span>, <span class="flavorII"></span>,
+              <span class="flavorIII"></span>, <span class="flavorIV">
+              </span>, and <span class="flavorV"></span>. Yum!
+            </p>
+            <hr>
+            <img src="http://soolnua.com/wp-content/themes/soolella/images/ice17/icecream-purple-pink.svg">
+          </div>
+      </div><!--end container-->
   </body>
 </html>
